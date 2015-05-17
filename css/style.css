@@ -1,0 +1,26 @@
+.container {
+    border: 2px solid black;
+    display: none;
+    padding: 5px;
+}
+
+.box {
+    /*border: 2px solid black;*/
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 1px;
+}
+
+.row {
+    clear: both;
+    margin: -3px;
+}
+
+.button {
+	margin: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
