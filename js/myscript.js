@@ -32,17 +32,21 @@ function createBox(rows, columns) {
 };
 
 // Allow user to change the color
+// Ask user what color they would like to change to
+// Save color as a variable
+
 
 // Color picker
 
 
 // On mouseover, the background of the box changes to the color that is selected
 $container.on("mouseenter", ".box", function() {
-    $(this).css('background-color', "red");    
+    var color = $("#color").value;
+    $(this).css('background-color', "pink");
+    console.log(color);
 });
 
 // Reset canvas
 $("#resetbtn").click(function() {
     $(".box").css("background", "initial");
 });
-
